@@ -1,0 +1,8 @@
+version: "2.4"
+services:
+  apache:
+    image: widmatg/homework-02
+    ports:
+    - "80:80"
+    volumes:
+    - ./:/usr/local/apache2/htdocs
